@@ -15,7 +15,7 @@
             <img src="{{ picture.url }}" alt="">
             <p>{{ picture.artist }}</p>
             <p> 
-                {{ picture.comments }} Comments
+                {{ picture.comments.count }} Comments
             </p>
         </li>
         {% endfor %}
